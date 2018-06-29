@@ -1,0 +1,41 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+#carouselWrap{
+    margin:100px auto;
+    width:620px;
+    height:135px;
+    padding:5px;
+    
+    position:relative;
+}
+#carouselPrev{
+    position:absolute;
+    top:65px;
+    left:-8px;
+    cursor:pointer;
+}
+#corouselNext{
+    position:absolute;
+    top:65px;
+    left:-8px;
+    cursor:pointer;
+}
+#carouselIner ul.column{
+    width:605px;
+    height:105px;
+    padding:15px 0 15px 15px;
+    list-style-type:none;
+    float:left;
+}
+#carouselInner ul.column li{
+    float:left;
+    margin-right:10px;
+    display:inline;
+}
+#carouselInnwe ul.column li img{
+    border:none;
+}
